@@ -1,0 +1,6 @@
+{
+  "name": "Trợ lý chủ nhiệm lớp 12A9",
+  "description": "Ứng dụng quản lý lớp học dành cho GVCN Đinh Thị Bính - Lớp 12A9, Trường THPT Trần Nhân Tông: theo dõi sĩ số, chuyên cần, nề nếp, thi đua, khen thưởng và hỗ trợ tiết sinh hoạt lớp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

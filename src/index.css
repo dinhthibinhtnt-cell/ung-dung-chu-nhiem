@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Be Vietnam Pro', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Projector mode adjustments */
+.projector-mode {
+  font-size: 1.15rem;
+}
+
+.projector-mode h1 {
+  font-size: 2.25rem !important;
+}
+
+.projector-mode h2 {
+  font-size: 1.75rem !important;
+}
+
+.projector-mode .stat-card {
+  padding: 1.5rem !important;
+}
+
+/* Print layout optimizations for official homeroom reports */
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .page-break {
+    page-break-after: always;
+  }
+}
+
